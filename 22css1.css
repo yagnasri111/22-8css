@@ -1,0 +1,29 @@
+.container{
+    position: relative;
+    display: inline-block;
+}
+i{
+    width: 40px;
+}
+
+.content>p {
+background-color: #eee;
+font-size: 1.5rem;
+padding: 10px;
+width: 300px;
+text-align: center;
+}
+
+.content {
+display: none;
+}
+
+.container:hover .content {
+    display: block;
+}
+.icons:checked{
+    background-color: rgb(231, 183, 229);
+}
+/*.icons:hover{
+    background-color: rgb(170, 127, 169);
+}*/
